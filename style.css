@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	 background-color: #fefbd8;
+	 font-family: Arial;
+}
+
+.container {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  line-height: 15px;
+  margin: 12px;
+  width: 100%;
+
+}
+
+.col-md-3 {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+}
+
+.col-md-12 {
+  width: 100%;
+  margin: auto;
+  padding-top: 12px;
+  border-top: 5px solid #7d97ad;
+  position: relative;
+  background-size: cover;
+  height: 100%; 
+}
+
+.col-md-9 {
+  float: right;
+  text-align: right;
+  margin-right: 10px;
+}
+
+ article {
+  border: 1px solid #7d97ad;
+  font-family: Arial;
+  line-height: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  color: #FFFFFF;
+  padding: 1em
+}
+
+.subheading {
+	margin: 12px;
+}
+ img {
+  width: 100%;
+  
+ }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+
+.content {
+    background-color: #7d97ad;
+    padding: 10px;
+}
+
+.project_name {
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer {
+  margin: 12px;
+  border-top: 3px solid #000000;
+  padding: 1em;
+  color: #ffffff;
+  clear: left;
+  text-align: center;
+}
+
+.mail {
+	color: #000000;
+	padding: 10px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;;
+  color: #ffffff;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: #ffffff;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: #ffffff;
+}
+
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+    article {
+    	font-size: 50%;
+    	line-height: 10px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
